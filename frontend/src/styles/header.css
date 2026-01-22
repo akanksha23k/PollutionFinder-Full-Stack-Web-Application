@@ -1,0 +1,48 @@
+/* RESET ONLY FOR HEADER */
+.pf-header * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER CONTAINER */
+.pf-header {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* LEFT SIDE */
+.pf-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pf-logo {
+  height: 35px;
+}
+
+.pf-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2d3d;
+}
+
+/* RIGHT NAV */
+.pf-nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1f2d3d;
+}
+
+.pf-nav a:hover {
+  color: #2f7d32;
+}
