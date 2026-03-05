@@ -65,7 +65,7 @@ function Search() {
           <p><b>PM2.5 (2023):</b> {result["2023"]}</p>
 
           <button onClick={handleBookmark}>
-            ⭐ Save Bookmark
+             Save Bookmark
           </button>
         </div>
       )}
