@@ -18,7 +18,7 @@ public class AuthService {
         this.jwtUtil = jwtUtil;
     }
 
-    // ✅ REGISTER METHOD (THIS WAS MISSING)
+    // REGISTER METHOD 
     public String register(RegisterRequest request) {
 
         User user = new User();
